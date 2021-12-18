@@ -1,0 +1,209 @@
+:root {
+	--main-accent-color: #2196f3;
+	--logo-black-color: #000000;
+	--main-black-color: #212121;
+	--main-white-color: #ffffff;
+	--header-contacts-list-color: #757575;
+	--footer-address-link-color: rgba(255, 255, 255, 0.6);
+	--background-color-hero: #2f303a;
+	--backgroung-color-hero-button: #2196f3;
+	--background-color-our-work: #f5f4fa;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	color: var(--main-black-color);
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	background-color: var(--main-white-color);
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.link {
+	text-decoration: none;
+	color: inherit;
+}
+.list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.button {
+	font-family: inherit;
+	cursor: pointer;
+}
+.header {
+	background-color: var(--main-white-color);
+}
+/* .header-nav {
+} */
+.header-logo {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+}
+.header-logo-web {
+	color: var(--main-accent-color);
+}
+.header-logo-studio {
+	color: var(--logo-black-color);
+}
+/* .header-nav-list {
+} */
+.header-nav-list-item {
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+.header-nav-list-item:hover,
+.header-nav-list-item:focus {
+	color: var(--main-accent-color);
+}
+
+.link.current {
+	color: var(--main-accent-color);
+}
+/* .header-contacts-list {
+} */
+.header-contacts-list-item {
+	color: var(--header-contacts-list-color);
+
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+.header-contacts-list-item:hover,
+.header-contacts-list-item:focus {
+	color: var(--main-accent-color);
+}
+.hero {
+	background-color: var(--background-color-hero);
+	text-align: center;
+}
+.hero-title {
+	color: var(--main-white-color);
+
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.hero-button {
+	color: var(--main-white-color);
+	background-color: var(--backgroung-color-hero-button);
+
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.06em;
+}
+.section-title {
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+}
+.benefits {
+	background-color: var(--main-white-color);
+}
+.benefits-title {
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+}
+.benefits-text {
+	color: var(--header-contacts-list-color);
+
+	line-height: 1.71;
+}
+.our-work {
+	background-color: var(--main-white-color);
+}
+
+/* .our-work-list-img {
+} */
+.our-team {
+	background-color: var(--background-color-our-work);
+}
+.our-team-list {
+	background-color: var(--main-white-color);
+}
+.our-team-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+}
+.our-team-text {
+	color: #757575;
+
+	font-size: 16px;
+	line-height: 1.19;
+}
+.footer {
+	background-color: var(--background-color-hero);
+}
+.footer-logo {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+}
+.footer-logo-web {
+	color: var(--main-accent-color);
+}
+.footer-logo-studio {
+	color: var(--main-white-color);
+}
+/* .footer-adress {
+}
+.footer-adress-list {
+} */
+.footer-adress-list-item {
+	color: var(--main-white-color);
+
+	font-style: normal;
+	line-height: 1.71;
+}
+
+.footer-adress-list-item .link {
+	color: var(--footer-address-link-color);
+}
+
+.footer-adress-list-item .link:hover,
+.footer-adress-list-item .link:focus {
+	color: var(--main-accent-color);
+}
+/* Portfolio */
+.portfolio {
+	background-color: var(--main-white-color);
+}
+.portfolio-button-list-item {
+	background-color: var(--background-color-our-work);
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+}
+
+.portfolio-button-list-item:hover,
+.portfolio-button-list-item:focus {
+	background-color: var(--main-accent-color);
+	color: var(--main-white-color);
+}
+.porfolio-card-list-title {
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+.porfolio-card-list-text {
+	color: var(--header-contacts-list-color);
+
+	font-size: 16px;
+	line-height: 1.87;
+}
