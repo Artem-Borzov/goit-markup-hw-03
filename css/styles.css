@@ -17,9 +17,29 @@ body {
 	letter-spacing: 0.03em;
 	background-color: var(--main-white-color);
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+	padding: 0;
+	margin: 0;
+}
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+	outline: 3px solid tomato;
+}
 .container {
 	width: 1200px;
 	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	outline: 3px solid blueviolet;
 }
 .link {
 	text-decoration: none;
@@ -82,6 +102,8 @@ body {
 .hero {
 	background-color: var(--background-color-hero);
 	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 .hero-title {
 	color: var(--main-white-color);
@@ -92,7 +114,6 @@ body {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 
-	margin-top: 0;
 	margin-bottom: 30px;
 }
 .hero-button {
@@ -104,6 +125,11 @@ body {
 	line-height: 1.87;
 	letter-spacing: 0.06em;
 }
+.hero-button:hover,
+.hero-button:focus {
+	background-color: var(--main-white-color);
+	color: var(--main-accent-color);
+}
 .section-title {
 	font-size: 36px;
 	line-height: 1.16;
@@ -111,6 +137,9 @@ body {
 }
 .benefits {
 	background-color: var(--main-white-color);
+}
+.benefits-list {
+	display: flex;
 }
 .benefits-title {
 	font-size: 14px;
@@ -124,26 +153,48 @@ body {
 }
 .our-work {
 	background-color: var(--main-white-color);
-}
 
-/* .our-work-list-img {
-} */
+	padding-top: 0;
+}
+.our-work-list {
+	display: flex;
+}
+.our-work-list-img {
+}
 .our-team {
 	background-color: var(--background-color-our-work);
 }
+.our-team .section-title {
+	margin-bottom: 50px;
+}
 .our-team-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.our-team-card {
 	background-color: var(--main-white-color);
+
+	text-align: center;
+}
+
+.our-team-img {
+	margin-bottom: 30px;
 }
 .our-team-title {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
+
+	margin-bottom: 10px;
 }
 .our-team-text {
-	color: #757575;
+	color: var(--header-contacts-list-color);
 
 	font-size: 16px;
 	line-height: 1.19;
+
+	padding-bottom: 30px;
 }
 .footer {
 	background-color: var(--background-color-hero);
@@ -183,12 +234,22 @@ body {
 .portfolio {
 	background-color: var(--main-white-color);
 }
+.portfolio-button-list {
+	display: flex;
+}
 .portfolio-button-list-item {
 	background-color: var(--background-color-our-work);
 
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
+}
+.porfolio-card-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.porfolio-card-list-item {
 }
 
 .portfolio-button-list-item:hover,
