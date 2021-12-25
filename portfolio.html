@@ -24,67 +24,75 @@
 		<!-- Шапка -->
 		<header class="header">
 			<div class="container">
-				<nav class="header-nav">
-					<a class="link header-logo" href="./index.html"
-						><span class="header-logo-web">Web</span
-						><span class="header-logo-studio">Studio</span></a
-					>
-					<ul class="list header-nav-list">
-						<li class="header-nav-list-item">
-							<a class="link" href="./index.html">Студия</a>
+				<div class="header-body">
+					<nav class="header-nav">
+						<a class="link header-logo" href="./index.html"
+							><span class="header-logo-web">Web</span
+							><span class="header-logo-studio">Studio</span></a
+						>
+						<ul class="list header-nav-list">
+							<li class="header-nav-list-item">
+								<a class="link header-link" href="./index.html">Студия</a>
+							</li>
+							<li class="header-nav-list-item">
+								<a class="link current header-link" href="./portfolio.html"
+									>Портфолио</a
+								>
+							</li>
+							<li class="header-nav-list-item">
+								<a class="link header-link" href="">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<ul class="list header-contacts-list">
+						<li class="header-contacts-list-item">
+							<a class="link header-link" href="mailto:info@devstudio.com"
+								>info@devstudio.com</a
+							>
 						</li>
-						<li class="header-nav-list-item">
-							<a class="link current" href="./portfolio.html">Портфолио</a>
-						</li>
-						<li class="header-nav-list-item">
-							<a class="link" href="">Контакты</a>
+						<li class="header-contacts-list-item">
+							<a class="link header-link" href="tel:+380961111111"
+								>+38 096 111 11 11</a
+							>
 						</li>
 					</ul>
-				</nav>
-				<ul class="list header-contacts-list">
-					<li class="header-contacts-list-item">
-						<a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-					</li>
-					<li class="header-contacts-list-item">
-						<a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
-					</li>
-				</ul>
+				</div>
 			</div>
 		</header>
 		<!-- Основа -->
 		<main>
 			<section class="section portfolio">
 				<div class="container">
-					<h1>Portfolio</h1>
+					<h1 class="visually-hidden">Portfolio</h1>
 					<ul class="list portfolio-button-list">
-						<li>
-							<button class="button portfolio-button-list-item" type="button">
+						<li class="portfolio-button-list-item">
+							<button class="button portfolio-button-list-item-button" type="button">
 								Все
 							</button>
 						</li>
-						<li>
-							<button class="button portfolio-button-list-item" type="button">
+						<li class="portfolio-button-list-item">
+							<button class="button portfolio-button-list-item-button" type="button">
 								Веб-сайты
 							</button>
 						</li>
-						<li>
-							<button class="button portfolio-button-list-item" type="button">
+						<li class="portfolio-button-list-item">
+							<button class="button portfolio-button-list-item-button" type="button">
 								Приложения
 							</button>
 						</li>
-						<li>
-							<button class="button portfolio-button-list-item" type="button">
+						<li class="portfolio-button-list-item">
+							<button class="button portfolio-button-list-item-button" type="button">
 								Дизайн
 							</button>
 						</li>
-						<li>
-							<button class="button portfolio-button-list-item" type="button">
+						<li class="portfolio-button-list-item">
+							<button class="button portfolio-button-list-item-button" type="button">
 								Маркетинг
 							</button>
 						</li>
 					</ul>
-					<ul class="list porfolio-card-list">
-						<li class="porfolio-card-list-item">
+					<ul class="list portfolio-card-list">
+						<li class="portfolio-card-list-item">
 							<a class="link" href="">
 								<img
 									class="porfolio-card-list-img"
@@ -93,11 +101,13 @@
 									width="370"
 									height="294"
 								/>
-								<h2 class="porfolio-card-list-title">Технокряк</h2>
-								<p class="porfolio-card-list-text">Веб-сайт</p>
+								<div class="portfolio-card-list-content">
+									<h2 class="porfolio-card-list-title">Технокряк</h2>
+									<p class="porfolio-card-list-text">Веб-сайт</p>
+								</div>
 							</a>
 						</li>
-						<li class="porfolio-card-list-item">
+						<li class="portfolio-card-list-item">
 							<a class="link" href="">
 								<img
 									class="porfolio-card-list-img"
@@ -106,13 +116,15 @@
 									width="370"
 									height="294"
 								/>
-								<h2 class="porfolio-card-list-title">
-									Постер New Orlean vs Golden Star
-								</h2>
-								<p class="porfolio-card-list-text">Дизайн</p>
+								<div class="portfolio-card-list-content">
+									<h2 class="porfolio-card-list-title">
+										Постер New Orlean vs Golden Star
+									</h2>
+									<p class="porfolio-card-list-text">Дизайн</p>
+								</div>
 							</a>
 						</li>
-						<li class="porfolio-card-list-item">
+						<li class="portfolio-card-list-item">
 							<a class="link" href="">
 								<img
 									class="porfolio-card-list-img"
@@ -121,11 +133,13 @@
 									width="370"
 									height="294"
 								/>
-								<h2 class="porfolio-card-list-title">Ресторан Seafood</h2>
-								<p class="porfolio-card-list-text">Приложение</p>
+								<div class="portfolio-card-list-content">
+									<h2 class="porfolio-card-list-title">Ресторан Seafood</h2>
+									<p class="porfolio-card-list-text">Приложение</p>
+								</div>
 							</a>
 						</li>
-						<li class="porfolio-card-list-item">
+						<li class="portfolio-card-list-item">
 							<a class="link" href="">
 								<img
 									class="porfolio-card-list-img"
@@ -134,11 +148,13 @@
 									width="370"
 									height="294"
 								/>
-								<h2 class="porfolio-card-list-title">Проект Prime</h2>
-								<p class="porfolio-card-list-text">Маркетинг</p>
+								<div class="portfolio-card-list-content">
+									<h2 class="porfolio-card-list-title">Проект Prime</h2>
+									<p class="porfolio-card-list-text">Маркетинг</p>
+								</div>
 							</a>
 						</li>
-						<li class="porfolio-card-list-item">
+						<li class="portfolio-card-list-item">
 							<a class="link" href="">
 								<img
 									class="porfolio-card-list-img"
@@ -147,11 +163,13 @@
 									width="370"
 									height="294"
 								/>
-								<h2 class="porfolio-card-list-title">Проект Boxes</h2>
-								<p class="porfolio-card-list-text">Приложение</p>
+								<div class="portfolio-card-list-content">
+									<h2 class="porfolio-card-list-title">Проект Boxes</h2>
+									<p class="porfolio-card-list-text">Приложение</p>
+								</div>
 							</a>
 						</li>
-						<li class="porfolio-card-list-item">
+						<li class="portfolio-card-list-item">
 							<a class="link" href="">
 								<img
 									class="porfolio-card-list-img"
@@ -160,11 +178,15 @@
 									width="370"
 									height="294"
 								/>
-								<h2 class="porfolio-card-list-title">Inspiration has no Borders</h2>
-								<p class="porfolio-card-list-text">Веб-сайт</p>
+								<div class="portfolio-card-list-content">
+									<h2 class="porfolio-card-list-title">
+										Inspiration has no Borders
+									</h2>
+									<p class="porfolio-card-list-text">Веб-сайт</p>
+								</div>
 							</a>
 						</li>
-						<li class="porfolio-card-list-item">
+						<li class="portfolio-card-list-item">
 							<a class="link" href="">
 								<img
 									class="porfolio-card-list-img"
@@ -173,11 +195,15 @@
 									width="370"
 									height="294"
 								/>
-								<h2 class="porfolio-card-list-title">Издание Limited Edition</h2>
-								<p class="porfolio-card-list-text">Дизайн</p>
+								<div class="portfolio-card-list-content">
+									<h2 class="porfolio-card-list-title">
+										Издание Limited Edition
+									</h2>
+									<p class="porfolio-card-list-text">Дизайн</p>
+								</div>
 							</a>
 						</li>
-						<li class="porfolio-card-list-item">
+						<li class="portfolio-card-list-item">
 							<a class="link" href="">
 								<img
 									class="porfolio-card-list-img"
@@ -186,11 +212,13 @@
 									width="370"
 									height="294"
 								/>
-								<h2 class="porfolio-card-list-title">Проект LAB</h2>
-								<p class="porfolio-card-list-text">Маркетинг</p>
+								<div class="portfolio-card-list-content">
+									<h2 class="porfolio-card-list-title">Проект LAB</h2>
+									<p class="porfolio-card-list-text">Маркетинг</p>
+								</div>
 							</a>
 						</li>
-						<li class="porfolio-card-list-item">
+						<li class="portfolio-card-list-item">
 							<a class="link" href="">
 								<img
 									class="porfolio-card-list-img"
@@ -199,8 +227,10 @@
 									width="370"
 									height="294"
 								/>
-								<h2 class="porfolio-card-list-title">Growing Business</h2>
-								<p class="porfolio-card-list-text">Приложение</p>
+								<div class="portfolio-card-list-content">
+									<h2 class="porfolio-card-list-title">Growing Business</h2>
+									<p class="porfolio-card-list-text">Приложение</p>
+								</div>
 							</a>
 						</li>
 					</ul>

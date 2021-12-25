@@ -24,31 +24,37 @@
 		<!-- Шапка -->
 		<header class="header">
 			<div class="container">
-				<nav class="header-nav">
-					<a class="link header-logo" href="./index.html"
-						><span class="header-logo-web">Web</span
-						><span class="header-logo-studio">Studio</span></a
-					>
-					<ul class="list header-nav-list">
-						<li class="header-nav-list-item">
-							<a class="link current" href="./index.html">Студия</a>
+				<div class="header-body">
+					<nav class="header-nav">
+						<a class="link header-logo" href="./index.html"
+							><span class="header-logo-web">Web</span
+							><span class="header-logo-studio">Studio</span></a
+						>
+						<ul class="list header-nav-list">
+							<li class="header-nav-list-item">
+								<a class="link current header-link" href="./index.html">Студия</a>
+							</li>
+							<li class="header-nav-list-item">
+								<a class="link header-link" href="./portfolio.html">Портфолио</a>
+							</li>
+							<li class="header-nav-list-item">
+								<a class="link header-link" href="">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<ul class="list header-contacts-list">
+						<li class="header-contacts-list-item">
+							<a class="link header-link" href="mailto:info@devstudio.com"
+								>info@devstudio.com</a
+							>
 						</li>
-						<li class="header-nav-list-item">
-							<a class="link" href="./portfolio.html">Портфолио</a>
-						</li>
-						<li class="header-nav-list-item">
-							<a class="link" href="">Контакты</a>
+						<li class="header-contacts-list-item">
+							<a class="link header-link" href="tel:+380961111111"
+								>+38 096 111 11 11</a
+							>
 						</li>
 					</ul>
-				</nav>
-				<ul class="list header-contacts-list">
-					<li class="header-contacts-list-item">
-						<a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-					</li>
-					<li class="header-contacts-list-item">
-						<a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
-					</li>
-				</ul>
+				</div>
 			</div>
 		</header>
 		<!-- Основа -->
@@ -66,7 +72,7 @@
 			<!-- Features -->
 			<section class="section benefits">
 				<div class="container">
-					<!-- <h2 class="section-title">Наши преимущества</h2> -->
+					<h2 class="section-title visually-hidden">Наши преимущества</h2>
 					<ul class="list benefits-list">
 						<li class="benefits-list-item">
 							<h3 class="benefits-title">Внимание к деталям</h3>
@@ -104,7 +110,7 @@
 				<div class="container">
 					<h2 class="section-title">Чем мы занимаемся</h2>
 					<ul class="list our-work-list">
-						<li>
+						<li class="our-work-list-item">
 							<img
 								class="our-work-list-img"
 								class="our-work-list-img"
@@ -115,7 +121,7 @@
 							/>
 						</li>
 
-						<li>
+						<li class="our-work-list-item">
 							<img
 								class="our-work-list-img"
 								src="./images/working-2.jpg"
@@ -125,7 +131,7 @@
 							/>
 						</li>
 
-						<li>
+						<li class="our-work-list-item">
 							<img
 								class="our-work-list-img"
 								src="./images/working-3.jpg"
@@ -150,7 +156,7 @@
 								width="270"
 								height="260"
 							/>
-							<h3 class="our-team-title">Игорь Демьянненко</h3>
+							<h3 class="our-team-title">Игорь Демьяненко</h3>
 							<p class="our-team-text">Product Designer</p>
 						</li>
 						<li class="our-team-card">
@@ -194,8 +200,8 @@
 		<footer class="footer">
 			<div class="container">
 				<a class="link footer-logo" href="./index.html">
-					<span class="footer-logo-web">Web</span>
-					<span class="footer-logo-studio">Studio</span>
+					<span class="footer-logo-web">Web</span
+					><span class="footer-logo-studio">Studio</span>
 				</a>
 				<address class="footer-adress">
 					<ul class="list footer-adress-list">
